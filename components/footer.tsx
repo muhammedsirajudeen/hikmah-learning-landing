@@ -71,7 +71,7 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="lg:col-span-2">
                         <Link href="/" className="inline-block">
-                            <span className="text-2xl font-bold tracking-tight text-primary">Hikma</span>
+                            <span className="text-2xl font-bold tracking-tight text-primary">Hikmah Learning</span>
                         </Link>
                         <p className="mt-4 text-muted-foreground max-w-sm leading-relaxed">
                             Empowering Muslims worldwide with authentic Islamic education through structured courses and expert guidance.
@@ -136,7 +136,7 @@ export function Footer() {
                 {/* Bottom Bar */}
                 <div className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
                     <p className="text-sm text-muted-foreground">
-                        © {new Date().getFullYear()} Hikma. All rights reserved.
+                        © {new Date().getFullYear()} Hikmah learning. All rights reserved.
                     </p>
                     <p className="text-sm text-muted-foreground">
                         Powered by <span className="font-medium text-foreground">CILTRTIQ TECHNOLOGIES</span>

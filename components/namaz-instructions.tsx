@@ -3,36 +3,37 @@ import Image from "next/image";
 const steps = [
     {
         id: 1,
-        title: "Takbir & Niyyah",
-        description: "Stand facing the Qibla, make your intention (Niyyah), and raise your hands saying 'Allahu Akbar'.",
+        title: "Takbir & Qiyam",
+        description: "Stand upright facing the Qibla, make your intention (Niyyah) in your heart, and say 'Allahu Akbar' to begin the prayer.",
         image: "/first.png",
     },
     {
         id: 2,
-        title: "Qiyam & Recitation",
-        description: "Fold your hands over your chest and recite Surah Al-Fatiha followed by another portion of the Quran.",
+        title: "Ruku (Bowing)",
+        description: "Bow forward with your back straight, place your hands firmly on your knees, keep your head aligned with your back, and glorify Allah.",
         image: "/second.png",
     },
     {
         id: 3,
-        title: "Ruku (Bowing)",
-        description: "Bow down with your hands on your knees, keeping your back straight, and glorify Allah.",
+        title: "Sujud (Prostration)",
+        description: "Prostrate with your forehead and nose on the ground, palms flat beside your head, knees on the floor, and toes pointing toward the Qibla.",
         image: "/third.png",
     },
     {
         id: 4,
-        title: "Sujud (Prostration)",
-        description: "Prostrate on the floor with your forehead, nose, palms, knees, and toes touching the ground.",
+        title: "Sitting Between Sujud (Jalsah)",
+        description: "Sit upright after the first prostration with your left foot tucked under you and right foot upright, hands resting on your knees.",
         image: "/fourth.png",
     },
 ];
+
 
 export function NamazInstructions() {
     return (
         <section id="courses" className="relative py-20 lg:py-28 overflow-hidden">
             {/* Background with subtle gradient */}
             <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/30 to-background" />
-            <div className="absolute inset-0 pattern-grid opacity-50" />
+            <div className="absolute inset-0 pattern-grid opacity-100" />
 
             <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
@@ -107,7 +108,7 @@ export function NamazInstructions() {
                 <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: '400ms' }}>
                     <p className="text-muted-foreground mb-4">Want to learn the complete prayer step by step?</p>
                     <a
-                        href="https://wa.me/9526965228?text=I%20want%20to%20learn%20Namaz"
+                        href="https://wa.me/9562019132qiyam?text=I%20want%20to%20learn%20Namaz"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors shadow-lg hover:shadow-xl"

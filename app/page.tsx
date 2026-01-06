@@ -126,7 +126,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <Image
                 src="/hikmahlearningnav.png"
-                alt="Hikma"
+                alt="Hikmah"
                 width={180}
                 height={60}
                 className="h-16 md:h-14 w-auto scale-225 mt-4"
@@ -181,7 +181,7 @@ export default function Home() {
                   {/* Title - Always visible */}
                   <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-foreground leading-tight">
                     Master Your Faith with{" "}
-                    <span className="text-gradient">Hikma</span>
+                    <span className="text-gradient">Hikmah</span>
                   </h1>
 
                   {/* Short subtitle for mobile */}
@@ -197,7 +197,7 @@ export default function Home() {
                   {/* CTAs - Always visible */}
                   <div className="mt-0 lg:mt-10 flex flex-col gap-4 sm:flex-row w-full">
                     <a
-                      href="https://wa.me/9526965228?text=I%20want%20to%20start%20learning"
+                      href="https://wa.me/9562019132?text=I%20want%20to%20start%20learning"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full sm:w-auto"
@@ -286,7 +286,7 @@ export default function Home() {
         <div className="absolute -inset-3 bg-[#25D366]/20 rounded-full animate-pulse-ring" />
 
         <a
-          href="https://wa.me/9526965228?text=Join%20Exclusive%20Program"
+          href="https://wa.me/9562019132?text=Join%20Exclusive%20Program"
           target="_blank"
           rel="noopener noreferrer"
           className="relative flex items-center gap-3 px-5 py-3 sm:px-6 sm:py-3.5 bg-[#25D366] text-white rounded-full font-semibold text-sm shadow-lg hover:shadow-xl hover:shadow-[#25D366]/30 transition-all hover:scale-105 group"

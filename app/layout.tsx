@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hikma - Master Your Faith with Islamic Learning",
+  title: "Hikmah - Master Your Faith with Islamic Learning",
   description: "The comprehensive Islamic learning platform designed to help you connect with your deen through structured courses and expert guidance.",
 };
 
