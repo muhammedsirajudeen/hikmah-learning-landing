@@ -129,7 +129,7 @@ export default function Home() {
                 alt="Hikmah"
                 width={180}
                 height={60}
-                className="h-16 md:h-14 w-auto scale-225 mt-4"
+                className="h-16 md:h-14 w-auto scale-200 md:scale-250 mt-4"
               />
             </div>
             <nav className="hidden gap-8 md:flex">
