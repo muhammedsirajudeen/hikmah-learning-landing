@@ -33,7 +33,7 @@ export function NamazInstructions() {
         <section id="courses" className="relative py-20 lg:py-28 overflow-hidden">
             {/* Background with subtle gradient */}
             <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/30 to-background" />
-            <div className="absolute inset-0 pattern-grid opacity-100" />
+            <div className="absolute inset-0 pattern-grid opacity-70" />
 
             <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
