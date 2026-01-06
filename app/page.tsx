@@ -125,11 +125,11 @@ export default function Home() {
           <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-2">
               <Image
-                src="/hikmahnavlogo.png"
+                src="/hikmahlearningnav.png"
                 alt="Hikma"
                 width={180}
                 height={60}
-                className="h-16 md:h-14 w-auto scale-225"
+                className="h-16 md:h-14 w-auto scale-225 mt-4"
               />
             </div>
             <nav className="hidden gap-8 md:flex">
