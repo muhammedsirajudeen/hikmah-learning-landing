@@ -11,14 +11,14 @@ export function ArabicMasterclass() {
             <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
                     {/* Image Container - Rounded Circle */}
-                    <div className="relative mx-auto w-full max-w-[400px] lg:max-w-none animate-fade-in">
-                        <div className="relative aspect-square w-full max-w-[450px] mx-auto">
+                    <div className="relative mx-auto w-full max-w-[500px] lg:max-w-none animate-fade-in">
+                        <div className="relative aspect-square w-full max-w-[550px] mx-auto">
                             {/* Decorative rings */}
                             <div className="absolute inset-0 rounded-full border-4 border-primary/20 animate-pulse" />
-                            <div className="absolute inset-4 rounded-full border-2 border-secondary/30" />
+                            <div className="absolute inset-3 rounded-full border-2 border-secondary/30" />
 
                             {/* Main image container */}
-                            <div className="absolute inset-8 rounded-full overflow-hidden shadow-2xl shadow-primary/20 bg-gradient-to-br from-primary/10 to-secondary/10">
+                            <div className="absolute inset-4 rounded-full overflow-hidden shadow-2xl shadow-primary/20 bg-gradient-to-br from-primary/10 to-secondary/10">
                                 <Image
                                     src="/arabic_letters.png"
                                     alt="Arabic Letter Master Class"
