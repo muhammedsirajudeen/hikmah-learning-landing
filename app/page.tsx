@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { NamazInstructions } from "@/components/namaz-instructions";
+import { ArabicMasterclass } from "@/components/arabic-masterclass";
 import { Footer } from "@/components/footer";
 
 // Feature data for the Features section
@@ -272,6 +273,9 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          {/* Arabic Letter Master Class Section */}
+          <ArabicMasterclass />
 
           {/* Namaz Instructions Section */}
           <NamazInstructions />

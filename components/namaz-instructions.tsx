@@ -104,21 +104,7 @@ export function NamazInstructions() {
                     ))}
                 </div>
 
-                {/* CTA below cards */}
-                <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: '400ms' }}>
-                    <p className="text-muted-foreground mb-4">Want to learn the complete prayer step by step?</p>
-                    <a
-                        href="https://wa.me/9562019132qiyam?text=I%20want%20to%20learn%20Namaz"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors shadow-lg hover:shadow-xl"
-                    >
-                        <span>Join Our Namaz Course</span>
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                        </svg>
-                    </a>
-                </div>
+
             </div>
         </section>
     );
